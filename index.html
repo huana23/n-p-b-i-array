@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+          <div class="w-50 py-5">
+            <form>
+                <div class="form-group">
+                  <input type="number" class="form-control" id="txtNum">
+                </div>
+                <button id="btnAdd" type="button" class="btn btn-primary" style="margin-bottom: 10px;">Thêm số</button>
+  
+              </form>
+              <!-- tổng các số dương các trong mảng -->
+              <button id="btnCount" type="button" class="btn btn-primary" style="margin-bottom: 10px;">Đếm có bao nhiêu số dương</button>
+
+              <!-- tổng số dương -->
+              <button id="btnSum" type="button" class="btn btn-primary" style="margin-bottom: 10px;">Tính tổng số dương</button>
+
+              <!-- tìm số lớn nhất -->
+              <button id="btnMin" type="button" class="btn btn-primary" onclick="timMin()" style="margin-bottom: 10px;">Số nhỏ nhất</button>
+
+              <!-- tìm số dương nhỏ nhất -->
+              <button id="btnMax" type="button" class="btn btn-primary" onclick="timMax()" style="margin-bottom: 10px;">Số dương nhỏ nhất</button>
+
+              <!-- tìm số chẵn cuối cùng -->
+              <button id="btnChanCuoi" type="button" class="btn btn-primary" onclick="timSoDuongCuoi()" style="margin-bottom: 10px;">Số chẵn cuối cùng</button>
+
+              <!-- sắp xếp theo thứ tự tăng dần -->
+              <button id="btnThuTu" type="button" class="btn btn-primary" onclick="sapXepTangDan()" style="margin-bottom: 10px;">Sắp xếp theo thứ tự tăng dần</button>
+
+               <!-- có bao nhiêu số nguyên-->
+               <button id="btnSoNguyen" type="button" class="btn btn-primary" onclick="soNguyen()" style="margin-bottom: 10px;">Có bao nhiêu số nguyên</button>
+
+               <!-- so sánh số nguyên dương và số nguyên âm-->
+               <button id="btnSo" type="button" class="btn btn-primary" onclick="soNguyen()" style="margin-bottom: 10px;">So sánh số nguyên dương và âm</button>
+
+                <!-- tìm số nguyên tố đầu -->
+                <button id="btnSo" type="button" class="btn btn-primary" onclick="timNguyenToDau()" style="margin-bottom: 10px;">Số nguyên tố đầu</button>
+              
+              
+
+              <p id="tongSoDuong"></p>
+              <p id="themSo"></p>
+
+
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+        crossorigin="anonymous"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
